@@ -23,11 +23,11 @@ const Index = () => {
         <Text className="text-black text-center text-7xl font-black">{count}</Text>
       </View>
       <View className='flex flex-row space-x-5'>
-        <Pressable onPressIn={increment} className='bg-white p-3 w-28 rounded-md'>
-          <Text className='text-center text-2xl font-medium  text-purple-950'>Increment</Text>
-        </Pressable>
         <Pressable onPressIn={decrement} className='bg-white p-3 w-28 rounded-md '>
           <Text className='text-center text-2xl font-medium  text-purple-950'>Decrement</Text>
+        </Pressable>
+        <Pressable onPressIn={increment} className='bg-white p-3 w-28 rounded-md'>
+          <Text className='text-center text-2xl font-medium  text-purple-950'>Increment</Text>
         </Pressable>
       </View>
     </View>
